@@ -39,6 +39,7 @@ template {
 }
 a {
   background-color: transparent;
+  color: white;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -197,7 +198,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: yellow;
+  background: black;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -377,7 +379,7 @@ dd {
 p {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: -30px;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
