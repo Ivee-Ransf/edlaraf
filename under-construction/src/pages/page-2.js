@@ -16,6 +16,7 @@ const SecondPage = () => (
     <p>Tel: 850-951-0499</p>
     <p>Email: edlaraf@centurylink.net</p>
     <Link to="/">Go back to the homepage</Link>
+    
   </Layout>
 )
 
