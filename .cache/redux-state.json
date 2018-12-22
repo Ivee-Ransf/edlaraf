@@ -1,0 +1,1371 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/ivee/edlaraf-uc/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/ivee/edlaraf-uc/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f4b9e6010080826a4e0233cebe279e8c",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "135c6b0dd4d200f2c333556133c4ec19",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "71bc2e3056904ebf0e71a43d936aa446",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5dabb642b7f6a30a78b631a62cae0274",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ba95da8cf94b6cf932f02cfcfb4179d3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c3232bd953aaefe46f1b176f759217a9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dd8b6af2d35dd8f446de8e426ea63755",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8b5a2442-c966-5d08-aba0-cedc87bffdf8": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-source-filesystem",
+      "id": "8b5a2442-c966-5d08-aba0-cedc87bffdf8",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/ivee/edlaraf-uc/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f90eb80129b506e3d479a5f7e4a04b3d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "779116009e44184a0f4fc1a78356899e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1036bf094efc0b8091a31adfffc2d382",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-manifest",
+      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "14d47ccfdab5f40a288b44e7133102f1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/ivee/edlaraf-uc",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "8b8a445befd2fb0ca590ecc74a08294a",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.53"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "git-scripts",
+            "version": "^0.2.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          },
+          {
+            "name": "surge",
+            "version": "^0.20.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "36ae759e81e3bcd52205fbbbbbc8be9c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c416e6a0-3785-52bf-8d88-cda743007f09": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-page-creator",
+      "id": "c416e6a0-3785-52bf-8d88-cda743007f09",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/ivee/edlaraf-uc/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "134cf8f439af6ce84c1a042dcb97dcde",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Edlar Angus Farm",
+        "description": "Under Construction",
+        "author": "Robert Ransford"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-12-22T14:20:15.034Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ce8e19a53c65d163122c439b141db24a",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "54a63bb5-863e-511f-ad0c-93000e19dfb8": {
+      "id": "54a63bb5-863e-511f-ad0c-93000e19dfb8",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bced36171e56f345e4f834e9cb7120ba",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-12-16T00:11:41.095Z",
+      "accessTime": "2018-12-22T14:20:17.747Z",
+      "changeTime": "2018-12-21T21:43:39.755Z",
+      "birthTime": "2018-12-15T23:49:52.990Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3103441,
+      "blocks": 0,
+      "atimeMs": 1545488417747.382,
+      "mtimeMs": 1544919101094.718,
+      "ctimeMs": 1545428619755.353,
+      "birthtimeMs": 1544917792989.8105,
+      "atime": "2018-12-22T14:20:17.747Z",
+      "mtime": "2018-12-16T00:11:41.095Z",
+      "ctime": "2018-12-21T21:43:39.755Z",
+      "birthtime": "2018-12-15T23:49:52.990Z"
+    },
+    "7b022e19-df76-5ca6-926f-25bbb07090e3": {
+      "id": "7b022e19-df76-5ca6-926f-25bbb07090e3",
+      "children": [
+        "4ad261da-a3b8-50a4-afd2-cc045992785b"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2018-12-15T23:49:52.991Z",
+      "accessTime": "2018-12-21T21:44:55.939Z",
+      "changeTime": "2018-12-21T21:43:39.755Z",
+      "birthTime": "2018-12-15T23:49:52.991Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3103444,
+      "blocks": 48,
+      "atimeMs": 1545428695938.6008,
+      "mtimeMs": 1544917792990.8376,
+      "ctimeMs": 1545428619755.288,
+      "birthtimeMs": 1544917792990.6873,
+      "atime": "2018-12-21T21:44:55.939Z",
+      "mtime": "2018-12-15T23:49:52.991Z",
+      "ctime": "2018-12-21T21:43:39.755Z",
+      "birthtime": "2018-12-15T23:49:52.991Z"
+    },
+    "4ad261da-a3b8-50a4-afd2-cc045992785b": {
+      "id": "4ad261da-a3b8-50a4-afd2-cc045992785b",
+      "children": [],
+      "parent": "7b022e19-df76-5ca6-926f-25bbb07090e3",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "aee7efdf-830b-5b2b-8f8e-23035711c148": {
+      "id": "aee7efdf-830b-5b2b-8f8e-23035711c148",
+      "children": [
+        "c47a93af-32c9-5714-be9c-a6e41db66876"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2018-12-15T23:49:52.991Z",
+      "accessTime": "2018-12-21T21:44:55.939Z",
+      "changeTime": "2018-12-21T21:43:39.755Z",
+      "birthTime": "2018-12-15T23:49:52.990Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3103443,
+      "blocks": 328,
+      "atimeMs": 1545428695938.5923,
+      "mtimeMs": 1544917792990.6018,
+      "ctimeMs": 1545428619754.8835,
+      "birthtimeMs": 1544917792989.8557,
+      "atime": "2018-12-21T21:44:55.939Z",
+      "mtime": "2018-12-15T23:49:52.991Z",
+      "ctime": "2018-12-21T21:43:39.755Z",
+      "birthtime": "2018-12-15T23:49:52.990Z"
+    },
+    "c47a93af-32c9-5714-be9c-a6e41db66876": {
+      "id": "c47a93af-32c9-5714-be9c-a6e41db66876",
+      "children": [],
+      "parent": "aee7efdf-830b-5b2b-8f8e-23035711c148",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "799561d1-b2f8-5aeb-92c0-87ce3b07d9e8": {
+      "id": "799561d1-b2f8-5aeb-92c0-87ce3b07d9e8",
+      "children": [
+        "ffc2619a-3625-5be2-884f-7ac02a36b0d2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "46763a0e092d00d58350c5ac3275dc37",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/under-construction-sign.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/under-construction-sign.jpg",
+      "relativePath": "under-construction-sign.jpg",
+      "extension": "jpg",
+      "size": 2496022,
+      "prettySize": "2.5 MB",
+      "modifiedTime": "2018-12-16T00:08:01.842Z",
+      "accessTime": "2018-12-21T21:44:55.939Z",
+      "changeTime": "2018-12-21T21:43:39.754Z",
+      "birthTime": "2018-12-16T00:08:01.711Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src/images",
+      "base": "under-construction-sign.jpg",
+      "ext": ".jpg",
+      "name": "under-construction-sign",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3103442,
+      "blocks": 4880,
+      "atimeMs": 1545428695938.6082,
+      "mtimeMs": 1544918881842.2869,
+      "ctimeMs": 1545428619754.4863,
+      "birthtimeMs": 1544918881711.4917,
+      "atime": "2018-12-21T21:44:55.939Z",
+      "mtime": "2018-12-16T00:08:01.842Z",
+      "ctime": "2018-12-21T21:43:39.754Z",
+      "birthtime": "2018-12-16T00:08:01.711Z"
+    },
+    "ffc2619a-3625-5be2-884f-7ac02a36b0d2": {
+      "id": "ffc2619a-3625-5be2-884f-7ac02a36b0d2",
+      "children": [],
+      "parent": "799561d1-b2f8-5aeb-92c0-87ce3b07d9e8",
+      "internal": {
+        "contentDigest": "46763a0e092d00d58350c5ac3275dc37",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/ivee/edlaraf-uc/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "c416e6a0-3785-52bf-8d88-cda743007f09",
+      "pluginCreatorId": "c416e6a0-3785-52bf-8d88-cda743007f09",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "efab6bae15ad3c6d4ad1a47a5e5cfa1f",
+        "description": "c416e6a0-3785-52bf-8d88-cda743007f09",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/ivee/edlaraf-uc/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "c416e6a0-3785-52bf-8d88-cda743007f09",
+      "pluginCreatorId": "c416e6a0-3785-52bf-8d88-cda743007f09",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e66cfccef75893116a5ee26a0d33120f",
+        "description": "c416e6a0-3785-52bf-8d88-cda743007f09",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/ivee/edlaraf-uc/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "c416e6a0-3785-52bf-8d88-cda743007f09",
+      "pluginCreatorId": "c416e6a0-3785-52bf-8d88-cda743007f09",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4f16149f75cfd08341b631e518d593cb",
+        "description": "c416e6a0-3785-52bf-8d88-cda743007f09",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/ivee/edlaraf-uc/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "06a09bb76cfea0742bb9cf4152560df4",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4adc5c69-2635-5701-a4cd-fdb7f5108978": {
+      "id": "4adc5c69-2635-5701-a4cd-fdb7f5108978",
+      "children": [
+        "43b4369f-d721-5e37-86e2-69c8688df79a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a193fb4c0a98d2f0c1cd0ec9f44627a7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/dog.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/dog.jpeg",
+      "relativePath": "dog.jpeg",
+      "extension": "jpeg",
+      "size": 8591,
+      "prettySize": "8.59 kB",
+      "modifiedTime": "2018-12-22T14:31:27.465Z",
+      "accessTime": "2018-12-22T14:31:29.220Z",
+      "changeTime": "2018-12-22T14:32:03.883Z",
+      "birthTime": "2018-12-22T14:29:42.829Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src/images",
+      "base": "dog.jpeg",
+      "ext": ".jpeg",
+      "name": "dog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3238296,
+      "blocks": 24,
+      "atimeMs": 1545489089220.2434,
+      "mtimeMs": 1545489087465.3518,
+      "ctimeMs": 1545489123882.777,
+      "birthtimeMs": 1545488982829.1892,
+      "atime": "2018-12-22T14:31:29.220Z",
+      "mtime": "2018-12-22T14:31:27.465Z",
+      "ctime": "2018-12-22T14:32:03.883Z",
+      "birthtime": "2018-12-22T14:29:42.829Z"
+    },
+    "43b4369f-d721-5e37-86e2-69c8688df79a": {
+      "id": "43b4369f-d721-5e37-86e2-69c8688df79a",
+      "children": [],
+      "parent": "4adc5c69-2635-5701-a4cd-fdb7f5108978",
+      "internal": {
+        "contentDigest": "a193fb4c0a98d2f0c1cd0ec9f44627a7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "49c7696112156d72b5905df1c82a49ce"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "799561d1-b2f8-5aeb-92c0-87ce3b07d9e8": [
+        "sq--src-components-image-js"
+      ],
+      "ffc2619a-3625-5be2-884f-7ac02a36b0d2": [
+        "sq--src-components-image-js"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-seo-js": 1025518380,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2182818041
+  },
+  "components": {
+    "/Users/ivee/edlaraf-uc/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/ivee/edlaraf-uc/.cache/dev-404-page.js"
+    },
+    "/Users/ivee/edlaraf-uc/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/pages/404.js"
+    },
+    "/Users/ivee/edlaraf-uc/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/pages/index.js"
+    },
+    "/Users/ivee/edlaraf-uc/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/pages/page-2.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    },
+    "sq--src-components-image-js": {
+      "name": "usersIveeEdlarafUcSrcComponentsImageJs2182818041",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersIveeEdlarafUcSrcComponentsImageJs2182818041 {\n  placeholderImage: file(relativePath: {eq: \"under-construction-sign.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2182818041
+    }
+  }
+}
