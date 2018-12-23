@@ -1293,6 +1293,63 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "f3e65f09-919d-57e0-9f38-356ff5647f5a": {
+      "id": "f3e65f09-919d-57e0-9f38-356ff5647f5a",
+      "children": [
+        "af3dd3e9-f80c-5f3a-993a-46415070b790"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "795fea1953d626f2de18bac3195cc93e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/ferddie.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/ferddie.png",
+      "relativePath": "ferddie.png",
+      "extension": "png",
+      "size": 11366,
+      "prettySize": "11.4 kB",
+      "modifiedTime": "2018-12-22T14:50:00.327Z",
+      "accessTime": "2018-12-22T14:50:00.338Z",
+      "changeTime": "2018-12-22T14:50:00.328Z",
+      "birthTime": "2018-12-22T14:48:31.565Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src/images",
+      "base": "ferddie.png",
+      "ext": ".png",
+      "name": "ferddie",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3239247,
+      "blocks": 24,
+      "atimeMs": 1545490200337.9746,
+      "mtimeMs": 1545490200327,
+      "ctimeMs": 1545490200327.5298,
+      "birthtimeMs": 1545490111564.522,
+      "atime": "2018-12-22T14:50:00.338Z",
+      "mtime": "2018-12-22T14:50:00.327Z",
+      "ctime": "2018-12-22T14:50:00.328Z",
+      "birthtime": "2018-12-22T14:48:31.565Z"
+    },
+    "af3dd3e9-f80c-5f3a-993a-46415070b790": {
+      "id": "af3dd3e9-f80c-5f3a-993a-46415070b790",
+      "children": [],
+      "parent": "f3e65f09-919d-57e0-9f38-356ff5647f5a",
+      "internal": {
+        "contentDigest": "795fea1953d626f2de18bac3195cc93e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     }
   },
   "status": {
@@ -1302,14 +1359,20 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ],
       "799561d1-b2f8-5aeb-92c0-87ce3b07d9e8": [
         "sq--src-components-image-js"
       ],
       "ffc2619a-3625-5be2-884f-7ac02a36b0d2": [
         "sq--src-components-image-js"
+      ],
+      "4adc5c69-2635-5701-a4cd-fdb7f5108978": [
+        "sq--src-components-fnf-image-js"
+      ],
+      "43b4369f-d721-5e37-86e2-69c8688df79a": [
+        "sq--src-components-fnf-image-js"
       ]
     },
     "connections": {}
@@ -1322,7 +1385,9 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2182818041
+    "sq--src-components-image-js": 2182818041,
+    "sq--src-components-404-image-js": 4249872657,
+    "sq--src-components-fnf-image-js": 3468506056
   },
   "components": {
     "/Users/ivee/edlaraf-uc/.cache/dev-404-page.js": {
@@ -1366,6 +1431,14 @@
       "jsonName": "sq--src-components-image-js",
       "query": "query usersIveeEdlarafUcSrcComponentsImageJs2182818041 {\n  placeholderImage: file(relativePath: {eq: \"under-construction-sign.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2182818041
+    },
+    "sq--src-components-fnf-image-js": {
+      "name": "usersIveeEdlarafUcSrcComponentsFnfImageJs3468506056",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/components/fnf-image.js",
+      "id": "sq--src-components-fnf-image-js",
+      "jsonName": "sq--src-components-fnf-image-js",
+      "query": "query usersIveeEdlarafUcSrcComponentsFnfImageJs3468506056 {\n  placeholderImage: file(relativePath: {eq: \"dog.jpeg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 3468506056
     }
   }
 }
