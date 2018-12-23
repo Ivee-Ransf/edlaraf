@@ -281,6 +281,74 @@
         "owner": "internal-data-bridge"
       }
     },
+    "99e5dd1c-8442-5f63-91c5-443bb559ee49": {
+      "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-favicon",
+      "id": "99e5dd1c-8442-5f63-91c5-443bb559ee49",
+      "name": "gatsby-plugin-favicon",
+      "version": "3.1.5",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/favicon.ico"
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ivee/edlaraf-uc/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "3.1.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "git+https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
+          },
+          {
+            "name": "html-react-parser",
+            "version": "^0.4.6"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          }
+        ],
+        "devDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e4dc8b4ab9fad0051fa6f25bd7375011",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "8b5a2442-c966-5d08-aba0-cedc87bffdf8": {
       "resolve": "/Users/ivee/edlaraf-uc/node_modules/gatsby-source-filesystem",
       "id": "8b5a2442-c966-5d08-aba0-cedc87bffdf8",
@@ -726,7 +794,7 @@
       "resolve": "/Users/ivee/edlaraf-uc",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "8b8a445befd2fb0ca590ecc74a08294a",
+      "version": "127c66064186a586cc01247368ff3229",
       "pluginOptions": {
         "plugins": []
       },
@@ -751,6 +819,10 @@
           {
             "name": "gatsby-image",
             "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^3.1.5"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -814,7 +886,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "36ae759e81e3bcd52205fbbbbbc8be9c",
+        "contentDigest": "0ba5d37688dc64ea61ccffccbad3bbd3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -932,12 +1004,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-22T14:20:15.034Z",
+      "buildTime": "2018-12-23T16:00:17.456Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ce8e19a53c65d163122c439b141db24a",
+        "contentDigest": "1501299f2519664df50f8b2e73ba46dd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -947,7 +1019,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bced36171e56f345e4f834e9cb7120ba",
+        "contentDigest": "c8ecbdbda3317a6a1efe7ba6d5c83ec4",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -956,11 +1028,11 @@
       "absolutePath": "/Users/ivee/edlaraf-uc/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2018-12-16T00:11:41.095Z",
-      "accessTime": "2018-12-22T14:20:17.747Z",
-      "changeTime": "2018-12-21T21:43:39.755Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-12-23T15:42:41.629Z",
+      "accessTime": "2018-12-23T16:00:21.589Z",
+      "changeTime": "2018-12-23T15:42:41.629Z",
       "birthTime": "2018-12-15T23:49:52.990Z",
       "root": "/",
       "dir": "/Users/ivee/edlaraf-uc/src",
@@ -970,21 +1042,135 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3103441,
       "blocks": 0,
-      "atimeMs": 1545488417747.382,
-      "mtimeMs": 1544919101094.718,
-      "ctimeMs": 1545428619755.353,
+      "atimeMs": 1545580821588.7305,
+      "mtimeMs": 1545579761628.9553,
+      "ctimeMs": 1545579761628.9553,
       "birthtimeMs": 1544917792989.8105,
-      "atime": "2018-12-22T14:20:17.747Z",
-      "mtime": "2018-12-16T00:11:41.095Z",
-      "ctime": "2018-12-21T21:43:39.755Z",
+      "atime": "2018-12-23T16:00:21.589Z",
+      "mtime": "2018-12-23T15:42:41.629Z",
+      "ctime": "2018-12-23T15:42:41.629Z",
       "birthtime": "2018-12-15T23:49:52.990Z"
+    },
+    "4adc5c69-2635-5701-a4cd-fdb7f5108978": {
+      "id": "4adc5c69-2635-5701-a4cd-fdb7f5108978",
+      "children": [
+        "43b4369f-d721-5e37-86e2-69c8688df79a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a193fb4c0a98d2f0c1cd0ec9f44627a7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/dog.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/dog.jpeg",
+      "relativePath": "dog.jpeg",
+      "extension": "jpeg",
+      "size": 8591,
+      "prettySize": "8.59 kB",
+      "modifiedTime": "2018-12-22T14:31:27.465Z",
+      "accessTime": "2018-12-23T15:42:42.868Z",
+      "changeTime": "2018-12-22T14:32:03.883Z",
+      "birthTime": "2018-12-22T14:29:42.829Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src/images",
+      "base": "dog.jpeg",
+      "ext": ".jpeg",
+      "name": "dog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3238296,
+      "blocks": 24,
+      "atimeMs": 1545579762868.1865,
+      "mtimeMs": 1545489087465.3518,
+      "ctimeMs": 1545489123882.777,
+      "birthtimeMs": 1545488982829.1892,
+      "atime": "2018-12-23T15:42:42.868Z",
+      "mtime": "2018-12-22T14:31:27.465Z",
+      "ctime": "2018-12-22T14:32:03.883Z",
+      "birthtime": "2018-12-22T14:29:42.829Z"
+    },
+    "f3e65f09-919d-57e0-9f38-356ff5647f5a": {
+      "id": "f3e65f09-919d-57e0-9f38-356ff5647f5a",
+      "children": [
+        "af3dd3e9-f80c-5f3a-993a-46415070b790"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "795fea1953d626f2de18bac3195cc93e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/ferddie.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/ferddie.png",
+      "relativePath": "ferddie.png",
+      "extension": "png",
+      "size": 11366,
+      "prettySize": "11.4 kB",
+      "modifiedTime": "2018-12-22T14:50:00.327Z",
+      "accessTime": "2018-12-23T15:49:26.608Z",
+      "changeTime": "2018-12-22T14:50:00.328Z",
+      "birthTime": "2018-12-22T14:48:31.565Z",
+      "root": "/",
+      "dir": "/Users/ivee/edlaraf-uc/src/images",
+      "base": "ferddie.png",
+      "ext": ".png",
+      "name": "ferddie",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3239247,
+      "blocks": 24,
+      "atimeMs": 1545580166607.6257,
+      "mtimeMs": 1545490200327,
+      "ctimeMs": 1545490200327.5298,
+      "birthtimeMs": 1545490111564.522,
+      "atime": "2018-12-23T15:49:26.608Z",
+      "mtime": "2018-12-22T14:50:00.327Z",
+      "ctime": "2018-12-22T14:50:00.328Z",
+      "birthtime": "2018-12-22T14:48:31.565Z"
+    },
+    "43b4369f-d721-5e37-86e2-69c8688df79a": {
+      "id": "43b4369f-d721-5e37-86e2-69c8688df79a",
+      "children": [],
+      "parent": "4adc5c69-2635-5701-a4cd-fdb7f5108978",
+      "internal": {
+        "contentDigest": "a193fb4c0a98d2f0c1cd0ec9f44627a7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "af3dd3e9-f80c-5f3a-993a-46415070b790": {
+      "id": "af3dd3e9-f80c-5f3a-993a-46415070b790",
+      "children": [],
+      "parent": "f3e65f09-919d-57e0-9f38-356ff5647f5a",
+      "internal": {
+        "contentDigest": "795fea1953d626f2de18bac3195cc93e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "7b022e19-df76-5ca6-926f-25bbb07090e3": {
       "id": "7b022e19-df76-5ca6-926f-25bbb07090e3",
@@ -1006,7 +1192,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-12-15T23:49:52.991Z",
-      "accessTime": "2018-12-21T21:44:55.939Z",
+      "accessTime": "2018-12-22T14:20:18.410Z",
       "changeTime": "2018-12-21T21:43:39.755Z",
       "birthTime": "2018-12-15T23:49:52.991Z",
       "root": "/",
@@ -1024,11 +1210,11 @@
       "blksize": 4096,
       "ino": 3103444,
       "blocks": 48,
-      "atimeMs": 1545428695938.6008,
+      "atimeMs": 1545488418409.7366,
       "mtimeMs": 1544917792990.8376,
       "ctimeMs": 1545428619755.288,
       "birthtimeMs": 1544917792990.6873,
-      "atime": "2018-12-21T21:44:55.939Z",
+      "atime": "2018-12-22T14:20:18.410Z",
       "mtime": "2018-12-15T23:49:52.991Z",
       "ctime": "2018-12-21T21:43:39.755Z",
       "birthtime": "2018-12-15T23:49:52.991Z"
@@ -1063,7 +1249,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-12-15T23:49:52.991Z",
-      "accessTime": "2018-12-21T21:44:55.939Z",
+      "accessTime": "2018-12-22T14:20:18.041Z",
       "changeTime": "2018-12-21T21:43:39.755Z",
       "birthTime": "2018-12-15T23:49:52.990Z",
       "root": "/",
@@ -1081,11 +1267,11 @@
       "blksize": 4096,
       "ino": 3103443,
       "blocks": 328,
-      "atimeMs": 1545428695938.5923,
+      "atimeMs": 1545488418040.7017,
       "mtimeMs": 1544917792990.6018,
       "ctimeMs": 1545428619754.8835,
       "birthtimeMs": 1544917792989.8557,
-      "atime": "2018-12-21T21:44:55.939Z",
+      "atime": "2018-12-22T14:20:18.041Z",
       "mtime": "2018-12-15T23:49:52.991Z",
       "ctime": "2018-12-21T21:43:39.755Z",
       "birthtime": "2018-12-15T23:49:52.990Z"
@@ -1120,7 +1306,7 @@
       "size": 2496022,
       "prettySize": "2.5 MB",
       "modifiedTime": "2018-12-16T00:08:01.842Z",
-      "accessTime": "2018-12-21T21:44:55.939Z",
+      "accessTime": "2018-12-22T14:43:06.584Z",
       "changeTime": "2018-12-21T21:43:39.754Z",
       "birthTime": "2018-12-16T00:08:01.711Z",
       "root": "/",
@@ -1138,11 +1324,11 @@
       "blksize": 4096,
       "ino": 3103442,
       "blocks": 4880,
-      "atimeMs": 1545428695938.6082,
+      "atimeMs": 1545489786584.2134,
       "mtimeMs": 1544918881842.2869,
       "ctimeMs": 1545428619754.4863,
       "birthtimeMs": 1544918881711.4917,
-      "atime": "2018-12-21T21:44:55.939Z",
+      "atime": "2018-12-22T14:43:06.584Z",
       "mtime": "2018-12-16T00:08:01.842Z",
       "ctime": "2018-12-21T21:43:39.754Z",
       "birthtime": "2018-12-16T00:08:01.711Z"
@@ -1236,143 +1422,35 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "4adc5c69-2635-5701-a4cd-fdb7f5108978": {
-      "id": "4adc5c69-2635-5701-a4cd-fdb7f5108978",
-      "children": [
-        "43b4369f-d721-5e37-86e2-69c8688df79a"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a193fb4c0a98d2f0c1cd0ec9f44627a7",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/dog.jpeg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/dog.jpeg",
-      "relativePath": "dog.jpeg",
-      "extension": "jpeg",
-      "size": 8591,
-      "prettySize": "8.59 kB",
-      "modifiedTime": "2018-12-22T14:31:27.465Z",
-      "accessTime": "2018-12-22T14:31:29.220Z",
-      "changeTime": "2018-12-22T14:32:03.883Z",
-      "birthTime": "2018-12-22T14:29:42.829Z",
-      "root": "/",
-      "dir": "/Users/ivee/edlaraf-uc/src/images",
-      "base": "dog.jpeg",
-      "ext": ".jpeg",
-      "name": "dog",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3238296,
-      "blocks": 24,
-      "atimeMs": 1545489089220.2434,
-      "mtimeMs": 1545489087465.3518,
-      "ctimeMs": 1545489123882.777,
-      "birthtimeMs": 1545488982829.1892,
-      "atime": "2018-12-22T14:31:29.220Z",
-      "mtime": "2018-12-22T14:31:27.465Z",
-      "ctime": "2018-12-22T14:32:03.883Z",
-      "birthtime": "2018-12-22T14:29:42.829Z"
-    },
-    "43b4369f-d721-5e37-86e2-69c8688df79a": {
-      "id": "43b4369f-d721-5e37-86e2-69c8688df79a",
-      "children": [],
-      "parent": "4adc5c69-2635-5701-a4cd-fdb7f5108978",
-      "internal": {
-        "contentDigest": "a193fb4c0a98d2f0c1cd0ec9f44627a7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "f3e65f09-919d-57e0-9f38-356ff5647f5a": {
-      "id": "f3e65f09-919d-57e0-9f38-356ff5647f5a",
-      "children": [
-        "af3dd3e9-f80c-5f3a-993a-46415070b790"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "795fea1953d626f2de18bac3195cc93e",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/ferddie.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/ivee/edlaraf-uc/src/images/ferddie.png",
-      "relativePath": "ferddie.png",
-      "extension": "png",
-      "size": 11366,
-      "prettySize": "11.4 kB",
-      "modifiedTime": "2018-12-22T14:50:00.327Z",
-      "accessTime": "2018-12-22T14:50:00.338Z",
-      "changeTime": "2018-12-22T14:50:00.328Z",
-      "birthTime": "2018-12-22T14:48:31.565Z",
-      "root": "/",
-      "dir": "/Users/ivee/edlaraf-uc/src/images",
-      "base": "ferddie.png",
-      "ext": ".png",
-      "name": "ferddie",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3239247,
-      "blocks": 24,
-      "atimeMs": 1545490200337.9746,
-      "mtimeMs": 1545490200327,
-      "ctimeMs": 1545490200327.5298,
-      "birthtimeMs": 1545490111564.522,
-      "atime": "2018-12-22T14:50:00.338Z",
-      "mtime": "2018-12-22T14:50:00.327Z",
-      "ctime": "2018-12-22T14:50:00.328Z",
-      "birthtime": "2018-12-22T14:48:31.565Z"
-    },
-    "af3dd3e9-f80c-5f3a-993a-46415070b790": {
-      "id": "af3dd3e9-f80c-5f3a-993a-46415070b790",
-      "children": [],
-      "parent": "f3e65f09-919d-57e0-9f38-356ff5647f5a",
-      "internal": {
-        "contentDigest": "795fea1953d626f2de18bac3195cc93e",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "49c7696112156d72b5905df1c82a49ce"
+    "PLUGINS_HASH": "41f922368c35b77c25a7ea5325cf5278"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
-      ],
-      "799561d1-b2f8-5aeb-92c0-87ce3b07d9e8": [
-        "sq--src-components-image-js"
-      ],
-      "ffc2619a-3625-5be2-884f-7ac02a36b0d2": [
-        "sq--src-components-image-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ],
       "4adc5c69-2635-5701-a4cd-fdb7f5108978": [
         "sq--src-components-fnf-image-js"
       ],
+      "799561d1-b2f8-5aeb-92c0-87ce3b07d9e8": [
+        "sq--src-components-image-js"
+      ],
       "43b4369f-d721-5e37-86e2-69c8688df79a": [
         "sq--src-components-fnf-image-js"
+      ],
+      "ffc2619a-3625-5be2-884f-7ac02a36b0d2": [
+        "sq--src-components-image-js"
+      ],
+      "f3e65f09-919d-57e0-9f38-356ff5647f5a": [
+        "sq--src-components-header-image-js"
+      ],
+      "af3dd3e9-f80c-5f3a-993a-46415070b790": [
+        "sq--src-components-header-image-js"
       ]
     },
     "connections": {}
@@ -1387,7 +1465,8 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-image-js": 2182818041,
     "sq--src-components-404-image-js": 4249872657,
-    "sq--src-components-fnf-image-js": 3468506056
+    "sq--src-components-fnf-image-js": 3468506056,
+    "sq--src-components-header-image-js": 1901761533
   },
   "components": {
     "/Users/ivee/edlaraf-uc/.cache/dev-404-page.js": {
@@ -1408,6 +1487,14 @@
     }
   },
   "staticQueryComponents": {
+    "sq--src-components-fnf-image-js": {
+      "name": "usersIveeEdlarafUcSrcComponentsFnfImageJs3468506056",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/components/fnf-image.js",
+      "id": "sq--src-components-fnf-image-js",
+      "jsonName": "sq--src-components-fnf-image-js",
+      "query": "query usersIveeEdlarafUcSrcComponentsFnfImageJs3468506056 {\n  placeholderImage: file(relativePath: {eq: \"dog.jpeg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 3468506056
+    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/ivee/edlaraf-uc/src/components/layout.js",
@@ -1432,13 +1519,13 @@
       "query": "query usersIveeEdlarafUcSrcComponentsImageJs2182818041 {\n  placeholderImage: file(relativePath: {eq: \"under-construction-sign.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2182818041
     },
-    "sq--src-components-fnf-image-js": {
-      "name": "usersIveeEdlarafUcSrcComponentsFnfImageJs3468506056",
-      "componentPath": "/Users/ivee/edlaraf-uc/src/components/fnf-image.js",
-      "id": "sq--src-components-fnf-image-js",
-      "jsonName": "sq--src-components-fnf-image-js",
-      "query": "query usersIveeEdlarafUcSrcComponentsFnfImageJs3468506056 {\n  placeholderImage: file(relativePath: {eq: \"dog.jpeg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 3468506056
+    "sq--src-components-header-image-js": {
+      "name": "usersIveeEdlarafUcSrcComponentsHeaderImageJs1901761533",
+      "componentPath": "/Users/ivee/edlaraf-uc/src/components/header-image.js",
+      "id": "sq--src-components-header-image-js",
+      "jsonName": "sq--src-components-header-image-js",
+      "query": "query usersIveeEdlarafUcSrcComponentsHeaderImageJs1901761533 {\n  placeholderImage: file(relativePath: {eq: \"ferddie.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 1901761533
     }
   }
 }
