@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Edlar Angus Farm',
     description: 'Under Construction',
-    author: 'Robert Ransford',
+    author: 'Ivee Ransford',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
